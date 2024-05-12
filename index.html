@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="./css/output.css" />
   </head>
   <body
-    class="flex justify-center items-center bg-gradient-to-r from-purple-500 to-pink-500 min-h-screen"
-  >
+    class="flex justify-center items-center bg-gradient-to-r from-purple-500 to-pink-500 min-h-screen">
     <div class="text-center bg-white rounded-lg shadow-md p-8 max-w-md">
       <div class="pb-5">
         <h1 class="text-4xl font-bold text-purple-600">Anime Quotes</h1>
@@ -20,20 +19,24 @@
       </div>
       <div class="py-4">
         <h4 id="quote" class="text-lg font-medium text-gray-800 mb-2">
-          quote: naa dani ang anime quote mo gawas
+          <!-- quote: naa dani ang anime quote mo gawas -->
         </h4>
         <span id="anime-name" class="text-gray-600 block"
-          >anime: onsa na anime</span
-        >
+          >
+          <!-- anime: unsa na anime -->
+          </span
+          >
         <span id="anime-character" class="text-gray-600 block"
-          >- character na nag storya ato</span
-        >
+          >
+          <!-- - character na nag storya ato -->
+          </span
+          >
       </div>
+     
       <div class="pt-7">
         <button
-          onclick="newQuotes()"
-          class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded transition-colors duration-300"
-        >
+          onclick="fetchanimequotes()"
+          class=" bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded transition-colors duration-300">
           New Quote
         </button>
       </div>
